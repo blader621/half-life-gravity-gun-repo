@@ -1,0 +1,24 @@
+{
+  "$schema": "https://melty.gg/schema/recipe.v1.json",
+  "loaders": [
+    {
+      "id": "bepinex-5",
+      "game": "repo"
+    }
+  ],
+  "components": [
+    {
+      "fileName": "GravityGunMod.zip",
+      "mode": "installed",
+      "mappings": [
+        {
+          "source": "Plugin.cs",
+          "destination": "{game}/BepInEx/plugins/GravityGunMod/Plugin.cs"
+        }
+      ]
+    }
+  ],
+  "multiplayer": {
+    "maxPlayers": 4
+  }
+}
